@@ -1,26 +1,77 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contact Us</title>
-</head>
-<body>
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
 
-<header>
-    <h2>LOGO</h2>
-</header>
+        <!-- Bootstrap (optional, light use only)-->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+         <link rel="stylesheet" href="style.css">
+    </head>
 
-<h1>Contact Us</h1>
+    <body>
 
-<form>
-    <input type="text" placeholder="Name"><br><br>
-    <input type="email" placeholder="Email"><br><br>
-    <textarea placeholder="Message"></textarea><br><br>
-    <button>Submit</button>
-</form>
+          <!-- HEADER-->
+     <header class="bg-dark text-white p-3">
+        <h1>Contact Us</h1>
 
-<footer>
-    <p>Contact Info</p>
+        <!-- NAVIGATION -->
+         <nav>
+            <a href="index.html" class="text-white me-3">Home</a>
+            <a href="about.html" class="text-white me-3">About Us</a>
+            <a href="food.html" class="text-white me-3">Food</a>
+            <a href="resturants.html" class="text-white me-3">Resturants</a>
+            <a href="contact.html" class="text-white me-3">Contact Us</a>
+            <a href="feedback.html" class="text-white me-3">Feedback</a>
+         </nav>
+        </header>
+
+         <main class="container mt-4">
+
+            <form>
+                <input class="form-control mb3" placeholder="Name">
+                <input class="form-control mb3" placeholder="Email">
+                <textrea class="form-control mb-3" placeholder="Message"></textarea>
+                <button class="btn btn-primary">Submit</button>  
+            </form>
+
+        </main>
+
+        <footer class="bg-dark text-white mt-4 pt-4 pb-3">
+    <div class="container">
+        <div class="row">
+
+            <!-- About -->
+            <div class="col-md-4">
+                <h5>Botswana Food Tourism</h5>
+                <p>Explore traditional foods and discover top restaurants across Botswana.</p>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: info@botswanafood.com</p>
+                <p>Phone: +267 123 4567</p>
+                <p>Location: Gaborone, Botswana</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <a href="index.html" class="text-white d-block">Home</a>
+                <a href="food.html" class="text-white d-block">Food</a>
+                <a href="restaurants.html" class="text-white d-block">Restaurants</a>
+                <a href="contact.html" class="text-white d-block">Contact</a>
+            </div>
+
+        </div>
+
+        <hr class="bg-light">
+
+        <p class="text-center mb-0">
+            © 2026 Botswana Food Tourism | All Rights Reserved
+        </p>
+    </div>
 </footer>
-
 </body>
 </html>

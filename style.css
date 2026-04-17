@@ -1,0 +1,113 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* LAYOUT FIX (Footer always at bottom) */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* HEADER */
+header {
+    background-color: #212529;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* NAVIGATION */
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    background: url("images/food.jpg") no-repeat center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* CARDS (Food & Restaurants) */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* IMAGES */
+img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* FORMS */
+form {
+    max-width: 500px;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+
+/* BUTTONS */
+button {
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #212529;
+    color: white;
+}
+/* Make page take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Use flexbox layout */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content grows to push footer down */
+main {
+    flex: 1;
+}
+
+/* RESPONSIVE (Mobile) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
