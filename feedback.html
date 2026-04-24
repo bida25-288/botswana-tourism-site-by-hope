@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -20,7 +20,7 @@
             <a href="index.html" class="text-white me-3">Home</a>
             <a href="about.html" class="text-white me-3">About Us</a>
             <a href="food.html" class="text-white me-3">Food</a>
-            <a href="resturants.html" class="text-white me-3">Resturants</a>
+            <a href="restaurants.html" class="text-white me-3">Resturants</a>
             <a href="contact.html" class="text-white me-3">Contact Us</a>
             <a href="feedback.html" class="text-white me-3">Feedback</a>
          </nav>
@@ -29,11 +29,18 @@
          <main class="container mt-4">
 
               <form>
-                <input class="form-control mb3" placeholder="First Name">
-                <input class="form-control mb3" placeholder="Email">
-                <textrea class="form-control mb-3" placeholder="Feedback"></textarea>
-                <button class="btn btn-primary">Submit</button>  
-            </form>
+                <!--Nmae-->
+                 <input type="text" class="form-control mb-3" placeholder="First Name" required>
+    
+                 <!-- Email -->
+                 <input type="email" class="form-control mb-3" placeholder="Email" required>
+    
+                 <!-- Message -->
+                 <textarea class="form-control mb-3" placeholder="Feedback" rows="4" required></textarea>
+    
+                 <!-- Submit Button -->
+                 <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
 
         </main>
 
